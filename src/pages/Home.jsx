@@ -103,10 +103,11 @@ const Home = ({ children }) => {
         <div className="  px-[30px] mt-[-20px] md:mt-[20px] gap-[30px]  sm:w-[180px]  md:ml-0 md:px-0 md:items-center sm:items-center  ml-[10px] sm:ml-0 flex  flex-col it sm:gap-[30px]  sm:px-0"
        >
           {menus?.map((menu, i) => (
+
             <Link
               to={menu?.link}
               key={i}
-              className={`grid grid-cols-3 active:bg-darkGrey  outline-none  hover:bg-darkGrey ${open?"md:hover:bg-darkGrey":""}  px-[20px]  rounded-md ml-[-10px] sm:ml-[30px] ${show?"sm:ml-[-28px]":""}    out    items-center`}
+              className={`grid grid-cols-3 active:bg-darkGrey  outline-none  hover:bg-darkGrey ${open?"md:hover:bg-darkGrey":""}  px-[20px]  rounded-md ml-[-10px] sm:ml-[30px] ${show?"sm:ml-[-30px]":""}    out    items-center`}
               onClick={() => setopen(!open)}>
                 <div className="">
                 <img
