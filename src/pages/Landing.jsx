@@ -18,7 +18,7 @@ const Landing = () => {
     <div className="px-14 py-[14px]  text-white sm:px-[10px]  sm:py-[40%] md:py-[100px] ">
         <div className='py-[10px]  sm:overflow-scroll dark:text-black dark:bg-white sm:text-center'>
             <h1 className='text-[90px] font-semibold tracking-wider sm:text-[24px] md:text-[50px] md:text-center xl:text-[60px]'>{greeting}</h1>
-            <p className='sm:pt-[20px] '>My name is Abdull - Welcome to Teddie’s UX. Below are some tips to get you started on this website</p>
+            <p className='sm:pt-[20px]  '>My name is Abdull - Welcome to Teddie’s UX. Below are some tips to get you started on this website</p>
         </div>
         <div className='flex  h-contain sm:h-[300px]  mt-[70px] sm:mt-[70px] '>
             <div className='border-l px-[20px] border-r w-[370px]  py-[40px]'>
