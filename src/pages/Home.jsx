@@ -106,7 +106,7 @@ const Home = ({ children }) => {
             <Link
               to={menu?.link}
               key={i}
-              className={`grid grid-cols-3 active:bg-darkGrey  outline-none  hover:bg-darkGrey ${open?"md:hover:bg-darkGrey":""}  px-[20px]  rounded-md ml-[-10px] sm:ml-[30px] ${show?"sm:ml-[-25px]":""}    out    items-center`}
+              className={`grid grid-cols-3 active:bg-darkGrey  outline-none  hover:bg-darkGrey ${open?"md:hover:bg-darkGrey":""}  px-[20px]  rounded-md ml-[-10px] sm:ml-[30px] ${show?"sm:ml-[-28px]":""}    out    items-center`}
               onClick={() => setopen(!open)}>
                 <div className="">
                 <img
