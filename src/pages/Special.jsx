@@ -47,7 +47,7 @@ const Special = () => {
       <div className="mt-[60px] sm:justify-center   grid grid-cols-3 sm:grid-cols-2 md:grid-cols-2 gap-[50px]  ">
         {
           card.map((item, index)=>(
-            <div className=" w-[300px] sm:w-[100%]  md:w-[100%] sm:h-[100%] bg-darkGrey h-[130px] rounded-xl p-[15px] sm:p-[10px] flex flex-col gap-[10px]">
+            <div className=" w-[100%] sm:w-[100%]  md:w-[100%] sm:h-[100%] bg-darkGrey h-[130px] rounded-xl p-[15px] sm:p-[10px] flex flex-col gap-[10px]">
           <img src={item.imgSrc} className="w-[24px]  rounded-full h-[24px]" />
           <p className="text-white text-[14px]">{item.P1}</p>
           <p className="text-black text-[13px] sm:text-left ">
