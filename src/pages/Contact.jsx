@@ -7,6 +7,19 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
 
+  const currentTime = new Date().getHours();
+  let greeting;
+
+  if (currentTime >= 0 && currentTime < 12) {
+    greeting = 'Good morning';
+  } else if (currentTime >= 12 && currentTime < 17) {
+    greeting = 'Good afternoon';
+  } else if (currentTime >= 17 && currentTime < 20) {
+    greeting = 'Good evening';
+  } else {
+    greeting = 'Good night';
+  }
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -81,7 +94,7 @@ const Contact = () => {
     <div  className="px-14  h-[100%] sm:pt-[60px]  md:py-[100px]   sm:px-[10px] text-white ">
       <div className="py-[10px] sm:pt-[100px] sm:overflow-scroll  dark:text-black dark:bg-white sm:text-center">
         <h1 className="text-[90px] font-semibold tracking-wider sm:text-[24px] md:text-[50px]">
-          Good afternoon
+          {greeting}
         </h1>
         <p className="sm:pt-[20px] ">
           My name is Abdull - Welcome to Teddie’s UX. Below are some tips to get
@@ -220,14 +233,19 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex flex-row gap-[5px] sm:hidden">
-              <img src="/twitter.png" className="object-contain" alt="" />
-              <img src="/linkedin.png" className="object-contain" />
+              <img src="/twitter.png" className="object-contain" alt="" onClick={()=>{window.open("https://www.Twitter.com/teddiesux")}}/>
+              <img src="/linkedin.png" className="object-contain" onClick={()=>{window.open("https://www.linkedin.com/in/abdullahi-saidu-2a5749224")}} />
             </div>
             <div className="">
+            <a href="/abdul.pdf" download="teddiescv">
               <button className="border flex rounded-lg items-center sm:text-[10px] text-[14px] gap-[10px] flex-row p-[5px]">
+         
                 <img src="/download.png" className="w-[14px]  h-[14px]" />
+            
+               
                 Download CV
               </button>
+              </a>
             </div>
           </div>
         </div>
