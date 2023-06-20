@@ -34,7 +34,7 @@ const card =[{
 
 const Special = () => {
   return (
-    <div className="px-14 text-white sm:py-[100px] md:py-[100px]  sm:px-[5px] ">
+    <div className="px-14 text-white sm:py-[100px] md:py-[100px] pb-[50px] sm:px-[5px] ">
       <div className="text-[80px] font-semibold ">
         <h1 className="sm:text-[23px] md:text-[60px]">Special Skills</h1>
       </div>

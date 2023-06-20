@@ -1,9 +1,11 @@
 import React from "react";
 import grey from "../Assets/greysoft.png";
+import fivemin from "../Assets/fivemin.png"
+import bridge from "../Assets/bridge.png"
 
 const Projects = () => {
   return (
-    <div className="px-14  text-white  h-[100%] sm:pt-[100px] sm:px-[10px] md:py-[100px]">
+    <div className="px-14  text-white  h-[100%] sm:pt-[100px] pb-[50px] sm:px-[10px] md:py-[100px]">
       <div>
         <h1 className="text-[80px] font-semibold  justify-center sm:text-[44px] md:text-[60px]">Projects</h1>
         <p className="text-[16px] text-justify text-darktext">
@@ -30,19 +32,19 @@ const Projects = () => {
         <div className="flex gap-[60px] mt-[50px]">
           <div>
             {" "}
-            <h1 className="text-darktext">2021 - Now</h1>
+            <h1 className="text-darktext">2022 - Now</h1>
           </div>
           <div>
-            <img src={grey} className="w-[80%]"  />
+            <img src={bridge} className="w-[80%]"  />
           </div>
         </div>
         <div className="flex gap-[60px] mt-[50px]">
           <div>
             {" "}
-            <h1 className="text-darktext">2021 - Now</h1>
+            <h1 className="text-darktext">Feb - 2021</h1>
           </div>
           <div>
-            <img src={grey}  className="w-[80%]" />
+            <img src={fivemin}  className="w-[80%]" />
           </div>
         </div>
       </div>

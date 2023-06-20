@@ -64,7 +64,7 @@ const Home = ({ children }) => {
       icon: "/Reading.png",
       number: "6",
     },
-    { name: "Arsenal", link: "/arsenal", icon: "/Vouchers.png", number: "7" },
+    { name: "Arsenal", link: "/arsenal", icon: "/Arsenal.png", number: "7" },
     { name: "Contact", link: "/contact", icon: "/Contact.png", number: "8" },
   ];
   const [open, setopen] = useState(true);

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="px-14 text-white  h-[100%] sm:pt-[100px] md:py-[100px] sm:px-[10px]  ">
+    <div className="px-14 text-white  sm:py-[100px] sm:px-[10px] pb-[50px] md:py-[100px] ">
       <div className="flex flex-col gap-[30px] ">
         <div>
           <h1 className="text-[84px] font-semibold  sm:text-[44px] md:text-[60px]">About</h1>
@@ -62,11 +62,70 @@ const About = () => {
               <p className="font-extrabold mt-[-4px]">.</p>
               <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
             </div>
+            <div className="flex flex-row gap-[10px] ml-[10px] text-darktext">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
+            </div> <div className="flex flex-row gap-[10px] ml-[10px] text-darktext">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
+            </div> <div className="flex flex-row gap-[10px] ml-[10px] text-darktext">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
+            </div> <div className="flex flex-row gap-[10px] ml-[10px] text-darktext">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
+            </div>
             </div>
            
-      
+
           </div>
-          
+        </div>
+        <div className="flex gap-[30px] items-start">
+          <div className="text-darktext sm:text-[10px]">
+            <h1>2021  -  Now</h1>
+     
+          </div>
+          <div>
+            <h1 className="text-[18px] font-semibold" >Bridge Innovative Technologies</h1>
+            <div className="flex flex-col gap-[10px]">
+            <div className="flex flex-row items-start gap-[10px] text-darktext ml-[10px]">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Collaborates with the product and engineering team to ensure optimal product tech,<br></br> and design collaboration</p>
+            </div>
+            <div className="flex flex-row gap-[10px] ml-[10px] text-darktext">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
+            </div>
+            <div className="flex flex-row items-start gap-[10px] text-darktext ml-[10px]">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Collaborates with the product and engineering team to ensure optimal product tech,<br></br> and design collaboration</p>
+            </div>
+            <div className="flex flex-row gap-[10px] ml-[10px] text-darktext">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Developed wireframes, interactive prototypes, specifications and other design<br></br> documents to communicate design ideas and intent to teans</p>
+            </div>
+            </div>
+           
+
+          </div>
+        </div>
+        <div className="flex gap-[30px] items-start">
+          <div className="text-darktext sm:text-[10px]">
+            <h1>2021  -  Now</h1>
+     
+          </div>
+          <div>
+            <h1 className="text-[18px] font-semibold" >Bridge Innovative Technologies</h1>
+            <div className="flex flex-col gap-[10px]">
+            <div className="flex flex-row items-start gap-[10px] text-darktext ml-[10px]">
+              <p className="font-extrabold mt-[-4px]">.</p>
+              <p className="text-[16px] ">Did graphic design freelance gigs.</p>
+            </div>
+            
+            </div>
+           
+
+          </div>
         </div>
       </div>
     </div>
