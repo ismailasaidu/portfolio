@@ -2,17 +2,19 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 const Landing = () => {
 
-   
-        const [greeting, setGreeting] = useState('');
-      
-        useEffect(() => {
-          const currentTime = new Date().getHours();
-          if (currentTime < 12) {
-            setGreeting('Good Morning');
-          } else {
-            setGreeting('Good Afternoon');
-          }
-        }, []);
+  const currentTime = new Date().getHours();
+  let greeting;
+
+  if (currentTime >= 0 && currentTime < 12) {
+    greeting = 'Good morning';
+  } else if (currentTime >= 12 && currentTime < 17) {
+    greeting = 'Good afternoon';
+  } else if (currentTime >= 17 && currentTime < 20) {
+    greeting = 'Good evening';
+  } else {
+    greeting = 'Good night';
+  }
+
       
   return (
     <div className="px-14 py-[14px]  text-white sm:px-[10px]  sm:py-[40%] md:py-[100px] ">
