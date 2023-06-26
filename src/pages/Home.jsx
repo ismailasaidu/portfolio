@@ -70,12 +70,12 @@ const Home = ({ children }) => {
   const [open, setopen] = useState(true);
   const [show, setshow] = useState(true);
   return (
-    <section className="flex px-[20px] sm:px-0 bg-container md:px-0  h-[100vh]   relative ">
+    <section className="flex px-[20px] sm:px-0 bg-container md:px-0  h-[100%] sm:fixed  relative ">
       <div
         className={`${
           open ? "sm:hidden" : "sm:block"
         } duration-300  bg-container relative ${show?" sm:w-[65%]": "sm:w-[20%]"
-        } sm:border-r sm:bg-dark sm:mt-0   sm:border-r-grey text-white md:overflow-y-scroll my-[20px]   sm:overflow-hidden flex flex-col h-[90vh] justify-between  md:gap-[20px] items-center  ${!open?"md:top-0":"md:top-[-100%]"} md:duration-500 md:ease-in   gap-[50px]  md:absolute  md:z-100  md:py-[100px] md:mt-0 md:bg-black    md:w-[100vw]  sm:h-[100vh] sm:z-[100]   sm:px-[25px] sm:py-[50px]   sm:flex   sm:flex-col  sm:fixed  `}>
+        } sm:border-r sm:bg-dark sm:mt-0   sm:border-r-grey text-white md:overflow-y-scroll my-[20px]  sm:overflow-hidden flex flex-col h-[100vh]  md:gap-[20px] items-center  ${!open?"md:top-0":"md:top-[-100%]"} md:duration-500 md:ease-in   gap-[50px] sm:justify-between md:absolute   md:z-100  md:py-[100px] md:mt-0 md:bg-black    md:w-[100vw]  sm:h-contain sm:z-[100]   sm:px-[25px] sm:py-[50px]   sm:flex   sm:flex-col  sm:fixed  sm:overflow-hidden `}>
         {/* <div className='border hidden rounded absolute  sm:block right-0 '>12</div> */}
          
         <div className="">
@@ -107,7 +107,7 @@ const Home = ({ children }) => {
             <Link
               to={menu?.link}
               key={i}
-              className={`grid grid-cols-3 active:bg-darkGrey  outline-none  hover:bg-darkGrey ${open?"md:hover:bg-darkGrey":""}  px-[20px]  rounded-md ml-[-10px]  ${show?"sm:ml-[-30px]":"sm:ml-[30px]"}  items-center `}
+              className={`grid grid-cols-3  outline-none   ${open?"md:hover:bg-darkGrey":""}  px-[20px]  rounded-md ml-[-10px]  ${show?"sm:ml-[-30px]":"sm:ml-[30px]"}  items-center `}
               onClick={() => setopen(!open)}>
                 <div className="">
                 <img
@@ -154,7 +154,7 @@ const Home = ({ children }) => {
           </div>
         </div>
       </div>
-      <div className=" my-div bg-view m-[20px] sm:m-0 md:m-0 w-[100%] overflow-y-scroll    rounded-lg sm:rounded-none md:rounded-none h-[90vh] sm:px-[20px] md:h-[100vh] sm:h-[100vh] mt-[40px] md:mt-0  ">
+      <div className=" my-div bg-view m-[20px] sm:m-0 md:m-0 w-[100%] overflow-y-scroll sm:fixed   rounded-lg sm:rounded-none md:rounded-none h-[90vh] sm:px-[20px] md:h-[100vh] sm:h-[100vh] mt-[40px] md:mt-0  ">
         <div
           className={`${
             open ? "sm:block" : "sm:hidden"
