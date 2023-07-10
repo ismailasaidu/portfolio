@@ -74,7 +74,7 @@ const Home = ({ children }) => {
         className={`${
           open ? "sm:hidden" : "sm:block"
         } duration-300  bg-container relative ${
-          show ? " sm:w-[65%]" : "sm:w-[20%]"
+          show ? "sm:w-[65%]" : "sm:w-[20%]"
         } sm:border-r sm:bg-dark sm:mt-0   sm:border-r-grey text-white md:overflow-y-scroll my-[20px]  sm:overflow-hidden flex flex-col h-[100%]  md:gap-[20px] items-center  ${
           !open ? "md:top-0" : "md:top-[-100%]"
         } md:duration-500 md:ease-in   gap-[50px] sm:gap-0 sm:justify-between md:absolute   md:z-100  md:py-[100px] md:mt-0 md:bg-black    md:w-[100vw]  sm:h-contain sm:z-[100]   sm:px-[25px] sm:py-[50px]   sm:flex   sm:flex-col  sm:fixed  sm:overflow-hidden `}>

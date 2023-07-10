@@ -20,7 +20,7 @@ const Projects = () => {
         </p>
       </div>
       <div className="flex flex-col">
-        <div className="flex gap-[60px] mt-[50px]">
+        <div className="flex gap-[60px] mt-[50px]" onClick={()=>{window.open("https://greysoft.ng/")}}>
           <div>
             {" "}
             <h1 className="text-darktext">2021 - Now</h1>
