@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300&family=Great+Vibes&display=swap'); */
+
+
+/* 
+body {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+font-family: 'Great Vibes', cursive;
+
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
