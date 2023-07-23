@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 function App() {
   
   return (
-    <div>
+    <div className="bg-view">
       <Home>
       <Routes>
         <Route path="/" element={<Landing/>}/>
