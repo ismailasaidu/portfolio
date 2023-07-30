@@ -102,7 +102,7 @@ const Home = ({ children }) => {
           onClick={() => setopen(!open)}
         />
 
-        <div className="px-[30px] mt-[-20px] md:mt-[20px] gap-[30px]  sm:w-[180px]   md:ml-0 md:px-0 md:items-center   ml-[10px] sm:ml-0 flex  flex-col sm:space-y-[2%]  sm:px-0">
+        <div className="px-[30px] mt-[-20px] md:mt-[20px] gap-[30px] sm:gap-0  sm:w-[180px]   md:ml-0 md:px-0 md:items-center   ml-[10px] sm:ml-0 flex  flex-col sm:space-y-[30px]  sm:px-0">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}

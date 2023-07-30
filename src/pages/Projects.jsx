@@ -29,7 +29,7 @@ const Projects = () => {
             <img src={grey} className="w-[80%]" />
           </div>
         </div>
-        <div className="flex gap-[60px] mt-[50px]">
+        <div className="flex gap-[60px] mt-[50px]" >
           <div>
             {" "}
             <h1 className="text-darktext">2022 - Now</h1>
